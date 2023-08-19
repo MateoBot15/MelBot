@@ -4,7 +4,7 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `𝙼𝙴𝙽𝚂𝙰𝙹𝙴𝚂: ${pesan}`
+let oi = `@𝐫𝐝𝐦𝐞𝐥_.𝐝𝐳𝐧: ${pesan}`
 let teks = `𝐀𝐍𝐎𝐓𝐄𝐍𝐒𝐄 𝐏𝐋𝐀𝐍𝐓𝐀𝐒 \n\n❏ ${oi}\n❏ 🫶🏻 ➢ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:: \n`
 for (let mem of participants) {
 teks += `❤️~》  @${mem.id.split('@')[0]}\n`}
